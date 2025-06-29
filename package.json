@@ -1,0 +1,29 @@
+{
+  "name": "@poststack/root",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Poststack component library for modern web frameworks",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "keywords": [
+    "components",
+    "ui",
+    "react",
+    "nextjs",
+    "vue"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+} 

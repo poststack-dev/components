@@ -1,0 +1,26 @@
+# Source
+src/
+
+# Development
+node_modules/
+.turbo
+tsconfig.json
+.eslintrc
+.prettierrc
+*.log
+
+# Tests
+__tests__/
+*.test.*
+*.spec.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+.DS_Store
+.env*
+.gitignore 
